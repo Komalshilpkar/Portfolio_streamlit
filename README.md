@@ -90,7 +90,7 @@ Helps users understand market trends and technical indicators clearly.
 Improves conceptual understanding of CNN architecture through visualization.
 
 🔗 **GitHub:** https://github.com/Komalshilpkar  
-<<<<<<< HEAD
+
 🌐 **Live App:** (Add deployed link if available)
 
 ---
@@ -124,15 +124,5 @@ This section highlights practical ML deployment skills.
 
 ## ⚙️ Run Locally
 
-Clone the repository and run the app locally:
-https://portfolioapp-7mbnmlsywpt43clqy9n65y.streamlit.app/
 
-```bash
-git clone https://github.com/Komalshilpkar/Portfolio_streamlit.git
-cd Portfolio_streamlit
-pip install -r requirements.txt
-python -m streamlit run app.py
-=======
-🌐 **Live App:** (Add depl
-https://portfolioapp-7mbnmlsywpt43clqy9n65y.streamlit.app/
->>>>>>> 8bc7c23 (created app.py file)
+
