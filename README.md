@@ -123,4 +123,5 @@ This section highlights practical ML deployment skills.
 ---
 
 ## ⚙️ Run Locally
+https://portfolioapp-7mbnmlsywpt43clqy9n65y.streamlit.app/
 
