@@ -12,18 +12,25 @@ st.set_page_config(
 st.markdown("""
 <style>
 
-/* Reduce top Streamlit header height */
+/* REMOVE wide Streamlit top white bar */
 header[data-testid="stHeader"] {
-    height: 3rem !important;
-    padding: 0.2rem 1rem !important;
+    display: none;
 }
 
 /* Reduce default Streamlit side margins */
 .block-container {
     padding-left: 2rem !important;
     padding-right: 2rem !important;
-    padding-top: 0.6rem !important;
+    padding-top: 1rem !important;
     max-width: 100% !important;
+}
+
+/* Bold white divider */
+.white-divider {
+    height: 4px;
+    background-color: white;
+    border-radius: 4px;
+    margin: 24px 0;
 }
 
 .card {
@@ -33,6 +40,7 @@ header[data-testid="stHeader"] {
     box-shadow: 0 6px 20px rgba(0,0,0,0.1);
     margin-bottom: 25px;
 }
+
 .badge {
     display: inline-block;
     background: #e6f0ff;
@@ -42,6 +50,7 @@ header[data-testid="stHeader"] {
     margin: 4px;
     font-size: 14px;
 }
+
 .btn {
     background: linear-gradient(90deg,#0A66C2,#0073e6);
     color: white;
@@ -71,7 +80,20 @@ st.markdown("""
 <a class="btn" href="https://www.linkedin.com/in/nandini-s-836ba55b" target="_blank">LinkedIn</a>
 """, unsafe_allow_html=True)
 
-st.markdown("---")
+# -------- CV DOWNLOAD BUTTON (ADDED ONLY) --------
+resume_path = "resume/Nandini_Shilpkar_CV_2026.pdf"
+if os.path.exists(resume_path):
+    with open(resume_path, "rb") as f:
+        st.download_button(
+            label="📄 Download CV",
+            data=f,
+            file_name="Nandini_Shilpkar_CV_2026.pdf",
+            mime="application/pdf"
+        )
+
+# -----------------------------------------------
+
+st.markdown('<div class="white-divider"></div>', unsafe_allow_html=True)
 
 # ================= HOME =================
 if section == "🏠 Home":
@@ -202,6 +224,6 @@ elif section == "📞 Contact":
     st.markdown('</div>', unsafe_allow_html=True)
 
 # ---------------- FOOTER ----------------
-st.markdown("---")
+st.markdown('<div class="white-divider"></div>', unsafe_allow_html=True)
 st.caption("🚀 Built with Streamlit | Nandini Shilpkar")
 
