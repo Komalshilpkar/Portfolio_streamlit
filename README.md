@@ -10,6 +10,8 @@ It showcases my **Data Science, Machine Learning, AI projects**, technical skill
 🔗 **LinkedIn:** https://www.linkedin.com/in/nandini-s-836ba55b  
 
 ---
+## ⚙️ Run Locally
+https://portfolioapp-7mbnmlsywpt43clqy9n65y.streamlit.app/
 
 ## 🚀 About Me
 
@@ -124,3 +126,4 @@ This section highlights practical ML deployment skills.
 
 ## ⚙️ Run Locally
 https://portfolioapp-7mbnmlsywpt43clqy9n65y.streamlit.app/
+
