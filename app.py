@@ -63,8 +63,9 @@ if section == "🏠 Home":
     st.write("""
     👋 Welcome to my **interactive AI/ML portfolio**.
 
-    I focus on building **real-world machine learning applications**, deploying them
-    as interactive tools, and explaining complex AI concepts in a clear and practical way.
+    I focus on building **real-world machine learning and Generative AI applications**,
+    deploying them as interactive tools, and explaining complex AI concepts
+    in a clear and practical way.
     """)
     st.markdown('</div>', unsafe_allow_html=True)
 
@@ -72,13 +73,14 @@ if section == "🏠 Home":
 elif section == "👩‍💼 About":
     st.markdown('<div class="card">', unsafe_allow_html=True)
     st.write("""
-    I am an aspiring **AI/ML and Data Science professional** with a strong foundation
-    in computer science, programming, and data analysis. I enjoy working on real-world
-    datasets and building intelligent solutions that combine analytical thinking
-    with practical deployment.
-    
-    I have hands-on experience across the full machine learning lifecycle—from data
-    preprocessing and modeling to evaluation and deployment using Streamlit.
+    Motivated **AI/ML and Data Science professional** seeking an opportunity to apply
+    strong programming, data analysis, and machine learning skills in building
+    intelligent, data-driven solutions.
+
+    I have hands-on experience in developing **analytical dashboards** and a
+    **Retrieval-Augmented Generation (RAG) based AI application** for
+    document-driven question answering, and I am eager to contribute to real-world
+    AI projects while growing as an **AI/ML Engineer or Data Scientist**.
     """)
     st.markdown('</div>', unsafe_allow_html=True)
 
@@ -87,92 +89,82 @@ elif section == "🛠 Skills":
     st.markdown("## 🛠 Skills & Technical Expertise")
 
     st.markdown('<div class="card">', unsafe_allow_html=True)
-    st.markdown("### 🐍 Python Programming")
+    st.markdown("### 🐍 Programming")
     st.write("""
-    Python is my primary programming language, and I use it extensively for data analysis,
-    machine learning, and application development. I focus on writing clean, modular, and
-    reusable code that follows best practices.
-
-    I have used Python for data preprocessing, feature engineering, model implementation,
-    and deploying complete end-to-end applications using Streamlit.
+    Python, Java, C/C++, JavaScript, and .NET with strong fundamentals,
+    object-oriented programming concepts, and logical problem-solving skills.
     """)
     st.markdown('</div>', unsafe_allow_html=True)
 
     st.markdown('<div class="card">', unsafe_allow_html=True)
-    st.markdown("### 📊 Data Analysis & Data Science")
+    st.markdown("### 📊 Data & Analytics")
     st.write("""
-    I have strong experience in data analysis using Pandas and NumPy, including cleaning
-    datasets, handling missing values, and performing exploratory data analysis (EDA)
-    to identify patterns and trends.
-
-    My data science approach emphasizes understanding the problem context first, followed
-    by statistical analysis and meaningful visualization to support decision-making.
+    Pandas, NumPy, and Excel with experience in data cleaning,
+    preprocessing, feature engineering, exploratory data analysis,
+    and basic statistical techniques.
     """)
     st.markdown('</div>', unsafe_allow_html=True)
 
     st.markdown('<div class="card">', unsafe_allow_html=True)
     st.markdown("### 🤖 Machine Learning")
     st.write("""
-    I have worked with machine learning techniques such as regression, classification,
-    and time-series forecasting. I understand the full ML pipeline including training,
-    evaluation, and tuning models.
-
-    My focus is on building models that are both accurate and interpretable, rather than
-    treating machine learning as a black-box solution.
+    Supervised learning techniques including classification and regression,
+    along with model evaluation, validation, and performance assessment.
     """)
     st.markdown('</div>', unsafe_allow_html=True)
 
     st.markdown('<div class="card">', unsafe_allow_html=True)
-    st.markdown("### 🧠 Deep Learning (LSTM & CNN)")
+    st.markdown("### 🧠 Generative AI & RAG")
     st.write("""
-    I have hands-on exposure to deep learning concepts, particularly LSTM models for
-    sequential data and CNN fundamentals for image processing.
-
-    To strengthen conceptual clarity, I built interactive visualizations that explain
-    convolution and pooling operations step by step.
+    Retrieval-Augmented Generation (RAG) using LangChain, including
+    document ingestion, text chunking, vector embeddings, FAISS similarity search,
+    prompt engineering, and context-aware response generation for
+    document-based question answering systems.
     """)
     st.markdown('</div>', unsafe_allow_html=True)
 
     st.markdown('<div class="card">', unsafe_allow_html=True)
-    st.markdown("### 📈 Time-Series Forecasting")
+    st.markdown("### 🧠 Deep Learning (Conceptual)")
     st.write("""
-    Time-series forecasting is a key area of interest for me, especially in financial data.
-    I have applied LSTM-based models to predict future price movements using historical data.
-
-    I understand concepts such as windowing, scaling, and sequence preparation that are
-    essential for reliable time-series modeling.
+    Understanding of CNN architecture including convolution, pooling,
+    and feature maps, demonstrated through an interactive simulator.
     """)
     st.markdown('</div>', unsafe_allow_html=True)
 
     st.markdown('<div class="card">', unsafe_allow_html=True)
-    st.markdown("### 🌐 Streamlit & Deployment")
+    st.markdown("### 📊 Visualization & BI")
     st.write("""
-    I use Streamlit to convert machine learning models into interactive web applications.
-    This allows non-technical users to explore predictions and insights easily.
-
-    I am comfortable deploying applications on Streamlit Cloud and managing dependencies
-    through structured project setups.
+    Power BI, Matplotlib, Seaborn, and Streamlit for building dashboards
+    and analytical visualizations.
     """)
     st.markdown('</div>', unsafe_allow_html=True)
 
 # ================= PROJECTS =================
 elif section == "📂 Projects":
     st.markdown('<div class="card">', unsafe_allow_html=True)
-    st.markdown("### 📈 AI-Driven Stock Market Prediction System")
+    st.markdown("### 📈 Stock Market Analysis Dashboard | Python, Streamlit | Live")
     st.write("""
-    LSTM-based forecasting system integrated with RSI, MACD, and Bollinger Bands.
-    Includes buy/sell/hold logic, backtesting, and investment summaries.
+    • Data cleaning, preprocessing, and exploratory data analysis  
+    • RSI, MACD, Moving Averages, and Bollinger Bands implementation  
     """)
     st.markdown("🔗 Live App: https://nandinistock-x6hbjqmh5qdzrn5v2vmappn.streamlit.app/")
     st.markdown('</div>', unsafe_allow_html=True)
 
     st.markdown('<div class="card">', unsafe_allow_html=True)
-    st.markdown("### 🧠 CNN Convolution & Pooling Visualizer")
+    st.markdown("### 🧠 CNN Simulator (Web-based Visualization Tool) | Live")
     st.write("""
-    Interactive educational tool to visualize convolution and pooling operations
-    with editable kernels, stride, and padding.
+    • Step-by-step simulation of convolution and pooling layers  
+    • Interactive educational tool for understanding CNN concepts  
     """)
     st.markdown("🔗 Live App: https://komalshilpkar.github.io/cnn-convolution-visualizer-clean/")
+    st.markdown('</div>', unsafe_allow_html=True)
+
+    st.markdown('<div class="card">', unsafe_allow_html=True)
+    st.markdown("### 📄 RAG-based AI Chatbot (Document Question Answering) | Live")
+    st.write("""
+    • Retrieval-Augmented Generation for document-based question answering  
+    • FAISS vector similarity search with embeddings and LLM-based response generation  
+    """)
     st.markdown('</div>', unsafe_allow_html=True)
 
 # ================= SCREENSHOTS =================
@@ -195,3 +187,4 @@ elif section == "📞 Contact":
 # ---------------- FOOTER ----------------
 st.markdown("---")
 st.caption("🚀 Built with Streamlit | Nandini Shilpkar")
+
