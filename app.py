@@ -11,6 +11,11 @@ st.set_page_config(
 # ---------------- CUSTOM CSS ----------------
 st.markdown("""
 <style>
+            /* Remove empty white spacer blocks */
+div:empty {
+    display: none !important;
+}
+
 
 /* REMOVE wide Streamlit top white bar */
 /* Keep header for sidebar toggle, but reduce height */
@@ -35,11 +40,12 @@ header[data-testid="stHeader"] {
 
 /* Bold white divider */
 .white-divider {
-    height: 4px;
-    background-color: white;
-    border-radius: 4px;
-    margin: 24px 0;
+    height: 1px;
+    background: rgba(255,255,255,0.25);
+    border-radius: 1px;
+    margin: 16px 0;
 }
+
 
 .card {
     background: #ffffff;
