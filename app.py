@@ -13,9 +13,17 @@ st.markdown("""
 <style>
 
 /* REMOVE wide Streamlit top white bar */
+/* Keep header for sidebar toggle, but reduce height */
 header[data-testid="stHeader"] {
-    display: none;
+    height: 2.8rem !important;
+    padding: 0.3rem 1rem !important;
 }
+
+/* Remove extra space below header */
+.block-container {
+    padding-top: 0.8rem !important;
+}
+
 
 /* Reduce default Streamlit side margins */
 .block-container {
