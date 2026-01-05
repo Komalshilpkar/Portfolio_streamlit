@@ -73,6 +73,77 @@ header[data-testid="stHeader"] {
     text-decoration: none;
     font-weight: 600;
 }
+     /* ===== PREMIUM DARK THEME ===== */
+
+/* App background */
+.stApp {
+    background: linear-gradient(180deg, #0b0f14, #0e141b);
+    color: #e6e6e6;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: #0e141b;
+    border-right: 1px solid rgba(255,255,255,0.05);
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+    color: #f5f7fa;
+    letter-spacing: 0.3px;
+}
+
+/* Text */
+p, li, span, label {
+    color: #cfd8e3;
+    font-size: 15px;
+}
+
+/* Cards – glass effect */
+.card {
+    background: rgba(255,255,255,0.03);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255,255,255,0.06);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+
+/* Buttons */
+.btn {
+    background: linear-gradient(135deg, #0A66C2, #1f8ef1);
+    box-shadow: 0 6px 18px rgba(10,102,194,0.4);
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 24px rgba(10,102,194,0.6);
+}
+
+/* Download button */
+button[kind="secondary"] {
+    background: linear-gradient(135deg, #1f8f4c, #2ecc71) !important;
+    color: white !important;
+    border-radius: 25px !important;
+    font-weight: 600 !important;
+    box-shadow: 0 6px 18px rgba(46,204,113,0.35);
+}
+
+/* Divider – subtle premium */
+.white-divider {
+    height: 1px;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,255,255,0.25),
+        transparent
+    );
+    margin: 22px 0;
+}
+
+/* Hide empty spacer blocks */
+div:empty {
+    display: none !important;
+}
+       
 
 </style>
 """, unsafe_allow_html=True)
