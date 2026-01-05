@@ -11,6 +11,21 @@ st.set_page_config(
 # ---------------- CUSTOM CSS ----------------
 st.markdown("""
 <style>
+
+/* Reduce top Streamlit header height */
+header[data-testid="stHeader"] {
+    height: 3rem !important;
+    padding: 0.2rem 1rem !important;
+}
+
+/* Reduce default Streamlit side margins */
+.block-container {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    padding-top: 0.6rem !important;
+    max-width: 100% !important;
+}
+
 .card {
     background: #ffffff;
     padding: 22px;
@@ -35,6 +50,7 @@ st.markdown("""
     text-decoration: none;
     font-weight: 600;
 }
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -165,6 +181,7 @@ elif section == "📂 Projects":
     • Retrieval-Augmented Generation for document-based question answering  
     • FAISS vector similarity search with embeddings and LLM-based response generation  
     """)
+    st.markdown("🔗 Live App: https://ragprojec.streamlit.app/")
     st.markdown('</div>', unsafe_allow_html=True)
 
 # ================= SCREENSHOTS =================
