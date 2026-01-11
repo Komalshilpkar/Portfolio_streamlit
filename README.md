@@ -1,6 +1,6 @@
 ## Portfolio_streamlit
 
-##Nandini Shilpkar – Data Science & AI Portfolio
+## Nandini Shilpkar – Data Science & AI Portfolio
 
 This repository hosts my personal portfolio web application built using Streamlit.  
 It showcases my Data Science, Machine Learning, AI projects, technical skills, and certifications.
