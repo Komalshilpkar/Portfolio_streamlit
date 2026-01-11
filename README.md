@@ -58,7 +58,7 @@ Certified in Applied AI & Machine Learning from IIT Delhi, I am actively seeking
 
 # Projects
 
-# 1.Stock Market Analysis Dashboard (Live)
+## 1.Stock Market Analysis Dashboard (Live)
 Tech Stack: Python, Streamlit  
 
 ## Description:
@@ -78,7 +78,7 @@ Helps users understand market trends and technical indicators clearly.
 
 
 
-# 2.CNN Convolution & Pooling Simulator (Live)
+## 2.CNN Convolution & Pooling Simulator (Live)
 Tech Stack: HTML, CSS, JavaScript / Streamlit  
 
 ## Description:
@@ -96,7 +96,7 @@ Improves conceptual understanding of CNN architecture through visualization.
 🌐 Live App: https://komalshilpkar.github.io/cnn-convolution-visualizer-clean/
  
 
-# 3.RAG-based AI Chatbot (Document Question Answering) (Live)
+## 3.RAG-based AI Chatbot (Document Question Answering) (Live)
 Tech Stack: Python, Streamlit, RAG
 
 ## Description:
@@ -106,7 +106,7 @@ Tech Stack: Python, Streamlit, RAG
 🔗 Live App: https://ragprojec.streamlit.app/
 
 
-# Machine Learning Demo
+## Machine Learning Demo
 
 The portfolio includes a Machine Learning prediction demo that demonstrates:
 - Feature-based prediction
