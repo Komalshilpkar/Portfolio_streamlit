@@ -1,6 +1,6 @@
- Portfolio_streamlit
+## Portfolio_streamlit
 
-Nandini Shilpkar – Data Science & AI Portfolio
+##Nandini Shilpkar – Data Science & AI Portfolio
 
 This repository hosts my personal portfolio web application built using Streamlit.  
 It showcases my Data Science, Machine Learning, AI projects, technical skills, and certifications.
@@ -10,10 +10,10 @@ It showcases my Data Science, Machine Learning, AI projects, technical skills, a
 🔗 LinkedIn: https://www.linkedin.com/in/nandini-s-836ba55b  
 
 
-Run Locally
+##Run Locally
 https://portfolioapp-7mbnmlsywpt43clqy9n65y.streamlit.app/
 
-About Me
+##About Me
 
 I am a B.Tech Computer Science & Engineering graduate with a strong foundation in  
 Python, Data Science, Machine Learning, and Data Visualization.
@@ -31,24 +31,24 @@ Certified in Applied AI & Machine Learning from IIT Delhi, I am actively seeking
 
 
 
-Technical Skills
+##Technical Skills
 
-Programming Languages 
+#Programming Languages 
 - Python, Java, C/C++, JavaScript, .NET  
 
-Data & Analytics
+#Data & Analytics
 - Pandas, NumPy  
 - Excel  
 - Data Cleaning & Preprocessing  
 - Feature Engineering  
 - Statistics  
 
-Machine Learning & AI
+#Machine Learning & AI
 - Supervised Learning (Regression, Classification)  
 - Model Evaluation & Validation  
 - CNN (Conceptual understanding via simulator)  
 
-Visualization & Tools
+#Visualization & Tools
 - Streamlit  
 - Power BI  
 - Matplotlib, Seaborn  
@@ -56,12 +56,12 @@ Visualization & Tools
 
 
 
-Projects
+##Projects
 
-1.Stock Market Analysis Dashboard (Live)
+#1.Stock Market Analysis Dashboard (Live)
 Tech Stack: Python, Streamlit  
 
-Description:
+#Description:
 - An interactive dashboard for analyzing stock market trends
 - Implements technical indicators such as:
   - RSI
@@ -70,7 +70,7 @@ Description:
   - Bollinger Bands
 - Real-time interactive visualizations
 
-Outcome:
+#Outcome:
 Helps users understand market trends and technical indicators clearly.
 
 🔗 GitHub: https://github.com/Komalshilpkar  
@@ -78,17 +78,17 @@ Helps users understand market trends and technical indicators clearly.
 
 
 
-2.CNN Convolution & Pooling Simulator (Live)
+##2.CNN Convolution & Pooling Simulator (Live)
 Tech Stack: HTML, CSS, JavaScript / Streamlit  
 
-Description:
+#Description:
 - Web-based educational tool to explain CNN internals visually
 - Step-by-step simulation of:
   - Convolution layers
   - Pooling layers
 - Interactive kernel and layer controls
 
-Outcome: 
+#Outcome: 
 Improves conceptual understanding of CNN architecture through visualization.
 
 🔗 GitHub: https://github.com/Komalshilpkar  
@@ -97,7 +97,7 @@ Improves conceptual understanding of CNN architecture through visualization.
 
 
 
-Machine Learning Demo
+##Machine Learning Demo
 
 The portfolio includes a Machine Learning prediction demo that demonstrates:
 - Feature-based prediction
@@ -108,22 +108,21 @@ This section highlights practical ML deployment skills.
 
 
 
-Certifications
+##Certifications
 
-- AI & Machine Learning – IIT Delhi
+#- AI & Machine Learning – IIT Delhi
   - Supervised & unsupervised learning
   - Model evaluation
   - Real-world AI use cases  
 
-- Programming – Protec Consultancy
+#- Programming – Protec Consultancy
   - Python, Java, .NET fundamentals  
 
-- Data & Analytics – Satish Dhawale
+#- Data & Analytics – Satish Dhawale
   - Advanced Excel
   - Power BI dashboards & reporting  
 
 
 
-Run Locally
-https://portfolioapp-7mbnmlsywpt43clqy9n65y.streamlit.app/
+
 
