@@ -97,7 +97,7 @@ Improves conceptual understanding of CNN architecture through visualization.
  
 
 # 3.RAG-based AI Chatbot (Document Question Answering) (Live)
-Tech Stack: Python, Streamlit
+Tech Stack: Python, Streamlit, RAG
 
 ## Description:
 - Retrieval-Augmented Generation for document-based question answering
