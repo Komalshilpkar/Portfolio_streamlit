@@ -74,7 +74,7 @@ Tech Stack: Python, Streamlit
 Helps users understand market trends and technical indicators clearly.
 
 🔗 GitHub: https://github.com/Komalshilpkar  
-🌐 Live App: (Add Streamlit link)
+🌐 Live App: 
 
 
 
@@ -93,7 +93,7 @@ Improves conceptual understanding of CNN architecture through visualization.
 
 🔗 GitHub: https://github.com/Komalshilpkar  
 
-🌐 Live App: (Add deployed link if available)
+🌐 Live App: https://komalshilpkar.github.io/cnn-convolution-visualizer-clean/
  
 
 # 3.RAG-based AI Chatbot (Document Question Answering) (Live)
