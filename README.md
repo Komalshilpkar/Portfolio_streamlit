@@ -94,7 +94,15 @@ Improves conceptual understanding of CNN architecture through visualization.
 🔗 GitHub: https://github.com/Komalshilpkar  
 
 🌐 Live App: (Add deployed link if available)
+ 
 
+# 3.RAG-based AI Chatbot (Document Question Answering) (Live)
+
+## Description:
+- Retrieval-Augmented Generation for document-based question answering
+- FAISS vector similarity search with embeddings and LLM-based response generation
+
+🔗 Live App: https://ragprojec.streamlit.app/
 
 
 # Machine Learning Demo
