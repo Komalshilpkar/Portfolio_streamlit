@@ -74,7 +74,7 @@ Tech Stack: Python, Streamlit
 Helps users understand market trends and technical indicators clearly.
 
 🔗 GitHub: https://github.com/Komalshilpkar  
-🌐 Live App: 
+🌐 Live App: https://nandinistock-x6hbjqmh5qdzrn5v2vmappn.streamlit.app/
 
 
 
