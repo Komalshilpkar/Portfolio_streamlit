@@ -31,7 +31,7 @@ Certified in Applied AI & Machine Learning from IIT Delhi, I am actively seeking
 
 
 
-## Technical Skills
+# Technical Skills
 
 # Programming Languages 
 - Python, Java, C/C++, JavaScript, .NET  
