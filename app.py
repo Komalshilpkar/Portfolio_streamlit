@@ -149,10 +149,10 @@ div:empty {
 """, unsafe_allow_html=True)
 
 # ---------------- SIDEBAR ----------------
-st.sidebar.title("📌 Navigation")
+st.sidebar.title("Navigation")
 section = st.sidebar.radio(
     "",
-    ["🏠 Home", "👩‍💼 About", "🛠 Skills", "📂 Projects", "🖼 Screenshots", "📞 Contact"]
+    ["Home", "About", "Skills", "Projects", "Screenshots", "Contact"]
 )
 
 # ---------------- HEADER ----------------
@@ -182,7 +182,7 @@ if os.path.exists(resume_path):
 st.markdown('<div class="white-divider"></div>', unsafe_allow_html=True)
 
 # ================= HOME =================
-if section == "🏠 Home":
+if section == "Home":
     st.markdown('<div class="card">', unsafe_allow_html=True)
     st.write("""
     👋 Welcome to my **interactive AI/ML portfolio**.
@@ -194,7 +194,7 @@ if section == "🏠 Home":
     st.markdown('</div>', unsafe_allow_html=True)
 
 # ================= ABOUT =================
-elif section == "👩‍💼 About":
+elif section == "About":
     st.markdown('<div class="card">', unsafe_allow_html=True)
     st.write("""
     Motivated **AI/ML and Data Science professional** seeking an opportunity to apply
@@ -209,7 +209,7 @@ elif section == "👩‍💼 About":
     st.markdown('</div>', unsafe_allow_html=True)
 
 # ================= SKILLS =================
-elif section == "🛠 Skills":
+elif section == "Skills":
     st.markdown("## 🛠 Skills & Technical Expertise")
 
     st.markdown('<div class="card">', unsafe_allow_html=True)
@@ -264,7 +264,7 @@ elif section == "🛠 Skills":
     st.markdown('</div>', unsafe_allow_html=True)
 
 # ================= PROJECTS =================
-elif section == "📂 Projects":
+elif section == "Projects":
     st.markdown('<div class="card">', unsafe_allow_html=True)
     st.markdown("### 📈 Stock Market Analysis Dashboard | Python, Streamlit | Live")
     st.write("""
@@ -293,7 +293,7 @@ elif section == "📂 Projects":
     st.markdown('</div>', unsafe_allow_html=True)
 
 # ================= SCREENSHOTS =================
-elif section == "🖼 Screenshots":
+elif section == "Screenshots":
     st.markdown("## 📸 Project Screenshots")
     image_files = os.listdir("assets") if os.path.exists("assets") else []
     cols = st.columns(3)
