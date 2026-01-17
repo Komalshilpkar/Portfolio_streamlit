@@ -1,6 +1,6 @@
-## Portfolio_streamlit
+# Portfolio_streamlit
 
-# Nandini Shilpkar – Data Science & AI Portfolio
+## Nandini Shilpkar – Data Science & AI Portfolio
 
 This repository hosts my personal portfolio web application built using Streamlit.  
 It showcases my Data Science, Machine Learning, AI projects, technical skills, and certifications.
@@ -10,7 +10,7 @@ It showcases my Data Science, Machine Learning, AI projects, technical skills, a
 🔗 LinkedIn: https://www.linkedin.com/in/nandini-s-836ba55b  
 
 
-# Run Locally
+## Run Locally
 https://portfolioapp-7mbnmlsywpt43clqy9n65y.streamlit.app/
 
 ## About Me
@@ -31,7 +31,7 @@ Certified in Applied AI & Machine Learning from IIT Delhi, I am actively seeking
 
 
 
-# Technical Skills
+## Technical Skills
 
 ## Programming Languages 
 - Python, Java, C/C++, JavaScript, .NET  
@@ -56,7 +56,7 @@ Certified in Applied AI & Machine Learning from IIT Delhi, I am actively seeking
 
 
 
-# Projects
+## Projects
 
 ## 1.Stock Market Analysis Dashboard (Live)
 Tech Stack: Python, Streamlit  
