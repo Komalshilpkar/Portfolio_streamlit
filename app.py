@@ -292,6 +292,22 @@ elif section == "Projects":
     st.markdown("🔗 Live App: https://ragprojec.streamlit.app/")
     st.markdown('</div>', unsafe_allow_html=True)
 
+    st.markdown('<div class="card">', unsafe_allow_html=True)
+    st.markdown("### AI Chatbot | Python, Streamlit | Live")
+    st.write("""
+    •   Developed and live-deployed a conversational AI chatbot featuring an LLM-powered backend, integrated session state management, and a streamlined Streamlit interface.
+    """)
+    st.markdown("🔗 Live App: https://aichatbot-cy8zeivo6cvapyqx9pfhcm.streamlit.app/")
+    st.markdown('</div>', unsafe_allow_html=True)
+    
+    st.markdown('<div class="card">', unsafe_allow_html=True)
+    st.markdown("### UPSC Mentor | Python, Streamlit | Live")
+    st.write("""
+    • Designed and deployed a structured mentorship and guidance platform for UPSC aspirants  
+    •  Demonstrated product thinking and UX design alongside full-stack deployment capability 
+    """)
+    st.markdown("🔗 Live App: https://upscmentor-jonkhy5ljssiqemrjnruwn.streamlit.app/")
+    st.markdown('</div>', unsafe_allow_html=True)
 # ================= SCREENSHOTS =================
 elif section == "Screenshots":
     st.markdown("## 📸 Project Screenshots")
