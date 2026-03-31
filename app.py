@@ -166,7 +166,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # -------- CV DOWNLOAD BUTTON (ADDED ONLY) --------
-resume_path = "resume/Nandini_Shilpkar_CV_2026_RAG_Skills_Added.pdf"
+resume_path = "resume/NSR.docx.pdf"
 
 if os.path.exists(resume_path):
     with open(resume_path, "rb") as f:
