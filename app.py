@@ -173,7 +173,7 @@ if os.path.exists(resume_path):
         st.download_button(
             label="📄 Download CV",
             data=f,
-            file_name="Nandini_Shilpkar_CV_2026.pdf",
+            file_name="NSR.docx.pdf",
             mime="application/pdf"
         )
 
